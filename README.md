@@ -13,3 +13,7 @@ Example:
 * login.php: use Login and get Email
 
 * advlogin.php: login and get / post any thing before facebook session expire
+
+Facebook app test init
+
+* see 01-gen-facebook-app.png and 02-set-fb-graph-20.png
