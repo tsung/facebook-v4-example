@@ -21,4 +21,14 @@ function is_cli()
     return (php_sapi_name() === 'cli') ? true : false;
 }
 // }}}
+// {{{ function gen_facebook_login_url($from = '')
+function gen_facebook_login_url($from = '')
+{
+    $redirect_uri = 'http://' . YOUR_HOSTNAME . '/login.php?from=' . urlencode($from);
+    $fbrdhelper   = new \Facebook\FacebookRedirectLoginHelper($redirect_uri);
+    $fb_login_url = $fbrdhelper->getLoginUrl(array('email'));
+
+    return $fb_login_url;
+}
+// }}}
 ?>
