@@ -4,7 +4,7 @@ Facebook v4 SDK PHP example
 
 PHP version >= 5.4
 
-Source: https://developers.facebook.com/docs/php/gettingstarted/4.0.0
+Docs: https://developers.facebook.com/docs/php/gettingstarted/4.0.0
 
 PHP SDK Download: https://github.com/facebook/facebook-php-sdk-v4/archive/4.0-dev.zip
 
